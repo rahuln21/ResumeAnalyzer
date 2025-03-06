@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+pymupdf
+python-dotenv
+fitz
