@@ -1,5 +1,5 @@
 streamlit
 google-generativeai
 pymupdf
-python-docx
-python-dotenv
+docx
+dotenv
