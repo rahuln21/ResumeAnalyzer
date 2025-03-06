@@ -38,3 +38,11 @@
 
 ![image](https://github.com/user-attachments/assets/8bd32772-99ff-477e-b377-dc91960313d7)
 
+
+## 🔗 Credits & Acknowledgment
+This project utilizes Google Gemini API for resume analysis and job description comparison.
+Special thanks to Google AI for providing powerful LLM capabilities.
+
+## Disclaimer
+This project is not affiliated with or endorsed by Google. It is built using the Gemini API for educational and experimental purposes.
+
