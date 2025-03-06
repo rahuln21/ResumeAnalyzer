@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-import fitz  # PyMuPDF for PDF extraction
+import pymupdf
 import os
 from dotenv import load_dotenv
 import re
@@ -21,7 +21,7 @@ PROMPT = os.getenv("PROMPT")
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_file):
-    with fitz.open(stream=pdf_file.read(), filetype="pdf") as doc:
+    with pymupdf.open(stream=pdf_file.read(), filetype="pdf") as doc:
         text = ""
         for page in doc:
             text += page.get_text("text")
