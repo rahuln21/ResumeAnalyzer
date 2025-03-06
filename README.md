@@ -34,5 +34,7 @@
    ```bash
    streamlit run app.py
 
+## 📸Screenshots
+
 ![image](https://github.com/user-attachments/assets/8bd32772-99ff-477e-b377-dc91960313d7)
 
