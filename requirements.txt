@@ -1,5 +1,0 @@
-streamlit
-google-generativeai
-pymupdf==1.21.1
-python-docx
-python-dotenv
