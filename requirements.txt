@@ -1,5 +1,5 @@
 streamlit
 google-generativeai
-pymupdf==1.20.2  # Use a stable version
+pymupdf
 python-docx
 python-dotenv
